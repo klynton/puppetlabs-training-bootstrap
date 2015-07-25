@@ -18,9 +18,6 @@ moduledir './modules/'
 mod 'bootstrap', 
   :git => 'https://github.com/puppetlabs/pltraining-bootstrap'
 
-mod 'training',
-  :git => 'https://github.com/puppetlabs/pltraining-training'
-
 mod 'learning',
   :git => 'https://github.com/puppetlabs/pltraining-learning'
 
@@ -30,30 +27,27 @@ mod 'lms',
 mod 'localrepo',
   :git => 'https://github.com/puppetlabs/pltraining-localrepo'
 
-mod 'student',
-  :git => 'https://github.com/puppetlabs/pltraining-student'
-
-mod 'pltraining/classroom', '1.2.8'
+mod 'pltraining/classroom', '1.2.12'
 #mod 'classroom', 
 #  :git => 'https://github.com/puppetlabs/pltraining-bootstrap'
 
-mod 'pltraining/rbac', '0.0.2'
+mod 'pltraining/rbac', '0.0.3'
 #mod 'rbac', 
 #  :git => 'https://github.com/puppetlabs/pltraining-rbac'
 
-mod 'pltraining/userprefs', '1.0.6'
+mod 'pltraining/userprefs', '1.0.7'
 #mod 'userprefs', 
 #  :git => 'https://github.com/puppetlabs/pltraining-userprefs'
 
-mod 'puppetlabs/concat', '1.2.0'
+mod 'puppetlabs/concat', '1.2.3'
 #mod 'concat', 
 #  :git => 'https://github.com/puppetlabs/puppetlabs-concat'
 
-mod 'puppetlabs/stdlib', '4.5.1'
+mod 'puppetlabs/stdlib', '4.6.0'
 #mod 'stdlib', 
 #  :git => 'https://github.com/puppetlabs/puppetlabs-stdlib'
 
-mod 'puppetlabs/vcsrepo', '1.2.0'
+mod 'puppetlabs/vcsrepo', '1.3.0'
 #mod 'vcsrepo',
 #  :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo'
 
@@ -65,5 +59,5 @@ mod 'nanliu/staging', '1.0.3'
 #mod 'staging', 
 #  :git => 'https://github.com/nanliu/puppet-staging'  
 
-mod 'puppetlabs/apache', '1.4.1'
+mod 'puppetlabs/apache', '1.5.0'
 

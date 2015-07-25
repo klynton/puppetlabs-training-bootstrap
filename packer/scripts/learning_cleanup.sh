@@ -1,3 +1,7 @@
+# Run puppet once
+/usr/local/bin/puppet agent -t
+
+
 # Stop all PE processes to free up memory
 for s in `find /etc/init.d/ -name pe* -type f -printf "%f\n"`
 do
@@ -15,4 +19,8 @@ rm -rf /usr/src/puppetlabs-training-bootstrap
 rm -rf /usr/src/puppet
 rm -rf /usr/share/doc/*
 rm -rf /usr/src/kernels
+rm -rf /var/cache/yum
+rm -rf /opt/puppet/share/ri
+rm -rf /home/vagrant/linux.iso
 
+yum clean all

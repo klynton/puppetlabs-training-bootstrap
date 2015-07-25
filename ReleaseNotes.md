@@ -1,3 +1,20 @@
+## Version 2.26
+* Run puppet after learning VM build
+
+## Version 2.25
+* Rebuild offline yum cache at the end of the build
+
+## Version 2.24
+* Using role for LMS
+
+## Version 2.23
+* Build using Puppet 3.8.1 and Facter 2.4.4
+* Clean yum cache at the end of build to save space
+
+## Version 2.22
+
+* Refactored to use roles
+
 ## Version 2.21
 * PE 3.8.1 support
 

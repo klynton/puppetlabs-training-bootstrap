@@ -1,9 +1,3 @@
-# Put LMS files in place
-include lms::lab_repo
-include lms::course_selector
-
-# Manifest for post build cleanup
-
 # Disable non-local yum repos
 yumrepo { [ 'updates', 'base', 'extras', 'epel']:
   enabled  => '0',
