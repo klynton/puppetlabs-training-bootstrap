@@ -1,3 +1,9 @@
+## Version 2.29
+* Learning VM memory improvments
+
+## Version 2.28
+* Updated cached modules for offline
+
 ## Version 2.27
 * 2015.2 offline classroom support
 * Learning VM 2015.2 build
